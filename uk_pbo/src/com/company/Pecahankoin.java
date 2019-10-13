@@ -27,27 +27,22 @@ public class Pecahankoin {
         while(uang_sekarang>50000){
             _50rb++;
             uang_sekarang -= 50000;
-            break;
         }
         while(uang_sekarang>20000){
             _20rb++;
             uang_sekarang -= 20000;
-            break;
         }
         while(uang_sekarang>10000){
             _10rb++;
             uang_sekarang -= 10000;
-            break;
         }
         while(uang_sekarang>5000){
             _5rb++;
             uang_sekarang -= 5000;
-            break;
         }
         while(uang_sekarang>2000){
             _2rb++;
             uang_sekarang -= 2000;
-            break;
         }
         while(uang_sekarang>=1000){
             _1rb++;

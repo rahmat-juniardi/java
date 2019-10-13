@@ -60,12 +60,12 @@ public class Barang {
         int totalBelanja = _A * hA + _B * hB + _C * hC + _D * hD + _E * hE;
         System.out.println("\n\n+===================+");
         System.out.println("\tStruk Pembelian Barang");
-        if (_A > 0) System.out.println( _A + " Barang A"); _A = 0;
-        if (_B > 0) System.out.println( _B + " Barang B"); _B = 0;
-        if (_C > 0) System.out.println( _C + " Barang C"); _C = 0;
-        if (_D > 0) System.out.println( _D + " Barang D"); _D = 0;
-        if (_E > 0) System.out.println( _E + " Barang E"); _E = 0;
+        if (_A > 0) System.out.println( _A + " Barang A Rp"+hA); _A = 0;
+        if (_B > 0) System.out.println( _B + " Barang B Rp"+hB); _B = 0;
+        if (_C > 0) System.out.println( _C + " Barang C Rp"+hC); _C = 0;
+        if (_D > 0) System.out.println( _D + " Barang D Rp"+hD); _D = 0;
+        if (_E > 0) System.out.println( _E + " Barang E Rp"+hE); _E = 0;
         System.out.println("---------------+");
-        System.out.println("Total Belanja " + totalBelanja );
+        System.out.println("Total Belanja Rp" + totalBelanja );
     }
 }
